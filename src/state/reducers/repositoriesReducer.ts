@@ -7,7 +7,7 @@ interface RepositoriesState {
   data: string[];
 }
 
-const reducer = (
+const repositoriesReducer = (
   state: RepositoriesState,
   action: Action
 ): RepositoriesState => {
@@ -37,4 +37,4 @@ const reducer = (
   }
 };
 
-export default reducer;
+export default repositoriesReducer;
